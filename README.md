@@ -30,4 +30,4 @@ I am building this repo to strengthen my understanding and showcase projects for
 
 ---
 
-👨‍💻 **Author**: [Your Name](https://github.com/your-username)
+👨‍💻 **Author**: [Mahabharathi R](https://github.com/mahabharathir)
