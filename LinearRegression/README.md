@@ -1,31 +1,37 @@
+# Linear Regression 📈
+
+Linear Regression is one of the most fundamental algorithms in Machine Learning.  
+It tries to fit a straight line through the data to make predictions.  
+
+This folder contains two projects:  
+
 ---
 
-### 📝 Example Project README (`LinearRegression/README.md`)
-```markdown
-# Linear Regression (Single Variable)
+## 📂 Projects
 
-## 📌 Problem
-Predict house prices based on size (square footage).
+### 1. [Single Variable Regression](./SingleVariable)
+- Predicts house price based on a single feature (e.g., house size).  
+- Implements gradient descent from scratch.  
+- Includes visualization of the regression line vs data points.  
 
-## 📊 Dataset
-- Source: Synthetic dataset with one feature (size).
-- Example:
-  | Size (sqft) | Price ($) |
-  |-------------|-----------|
-  | 650         | 75,000    |
-  | 800         | 90,000    |
-  | 1000        | 120,000   |
+### 2. [Multiple Variable Regression](./MultipleVariable)
+- Predicts house price using multiple features (e.g., size, number of rooms, location index).  
+- Compares implementation from scratch vs scikit-learn.  
+- Shows impact of feature scaling.  
 
-## 🚀 Approach
-1. Visualize data
-2. Implement cost function & gradient descent
-3. Train using sklearn
-4. Compare results
+---
 
-## 📈 Output
-- Regression line vs. data points  
-- R² Score
+## 📊 Concepts Covered
+- Hypothesis function: `f(x) = wx + b`  
+- Cost function: Mean Squared Error (MSE)  
+- Gradient Descent optimization  
+- Model evaluation (R² score, loss plots)  
 
-## 📂 Files
-- `linear_regression.ipynb` → Notebook with full implementation
-- `dataset.csv` → Training dataset
+---
+
+## 🔧 Tech Stack
+- Python  
+- NumPy, Pandas, Matplotlib  
+- Scikit-learn  
+
+---
