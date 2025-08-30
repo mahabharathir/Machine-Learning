@@ -1,18 +1,33 @@
-# Machine Learning Projects
+# Machine Learning Projects 🚀
 
-This repository contains hands-on Machine Learning projects covering different algorithms and concepts.  
-Each project has its own folder with Jupyter notebooks, datasets, and explanations.  
+This repository contains my hands-on implementations of fundamental machine learning algorithms.  
+I am building this repo to strengthen my understanding and showcase projects for job opportunities.  
 
-## 📂 Project List
+---
 
-1. [Linear Regression (Single Variable)](./LinearRegression)
-   - Predict house prices based on square footage
-   - Concepts: Gradient Descent, Cost Function, sklearn
+## 📂 Project Structure
 
-## ⚙️ Setup
+### 1. Linear Regression
+- [Single Variable](./LinearRegression/SingleVariable)  
+  Predict target using one input feature (e.g., house price vs size).  
+- [Multiple Variable](./LinearRegression/MultipleVariable)  
+  Predict target using multiple features (e.g., house price vs size, location, number of rooms).  
 
-Clone the repo and install dependencies:
-```bash
-git clone https://github.com/mahabharathir/Machine-Learning.git
-cd Machine-Learning
-pip install -r requirements.txt
+---
+
+## 🔧 Tech Stack
+- Python
+- NumPy, Pandas, Matplotlib, Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## 📌 Next Steps
+- Add Logistic Regression
+- Add Decision Trees
+- Add Neural Networks (basic)
+
+---
+
+👨‍💻 **Author**: [Your Name](https://github.com/your-username)
